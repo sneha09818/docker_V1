@@ -5,7 +5,7 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?logo=ubuntu&logoColor=white)
 ![SSH](https://img.shields.io/badge/SSH-Key%20Authentication-4D4D4D?logo=openssh&logoColor=white)
 
-A hands-on DevOps project demonstrating how to set up a Jenkins controller and agent using Docker containers and SSH key-based authentication.
+A hands-on DevOps practice demonstrating how to set up a Jenkins controller and agent using Docker containers and SSH key-based authentication.
 
 ## 📑 Table of Contents
 
@@ -71,24 +71,19 @@ docker network create jenkins-net
 ### 2. Create the Jenkins Agent
 
 ```bash
-docker run -dit \
-  --name agent \
-  --network jenkins-net \
-  ubuntu:24.04 bash
+docker run -dit --name agent network jenkins-net ubuntu:24.04 bash
 ```
 
 ### 3. Install Java and OpenSSH
 
 ```bash
-docker exec agent bash -c \
-  "apt update && apt install -y openjdk-21-jdk openssh-server"
+docker exec agent bash -c "apt update && apt install -y openjdk-21-jdk openssh-server"
 ```
 
 ### 4. Start the SSH Server
 
 ```bash
-docker exec agent bash -c \
-  "mkdir -p /run/sshd && /usr/sbin/sshd"
+docker exec agent bash -c "mkdir -p /run/sshd && /usr/sbin/sshd"
 ```
 
 Verify that SSH is running:
@@ -100,10 +95,7 @@ docker exec agent bash -c "ps aux | grep '[s]shd'"
 ### 5. Generate SSH Keys on the Controller
 
 ```bash
-docker exec jenkins bash -c \
-  "mkdir -p /var/jenkins_home/.ssh &&
-   ssh-keygen -t ed25519 -N '' \
-   -f /var/jenkins_home/.ssh/id_ed25519"
+docker exec jenkins bash -c  "mkdir -p /var/jenkins_home/.ssh && ssh-keygen -t ed25519 -N ''  -f /var/jenkins_home/.ssh/id_ed25519"
 ```
 
 > **Security:** Never publish your private key in a GitHub repository.
@@ -111,20 +103,13 @@ docker exec jenkins bash -c \
 ### 6. Copy the Public Key to the Agent
 
 ```bash
-docker exec jenkins cat /var/jenkins_home/.ssh/id_ed25519.pub |
-docker exec -i agent bash -c \
-  "mkdir -p /root/.ssh &&
-   cat > /root/.ssh/authorized_keys &&
-   chmod 700 /root/.ssh &&
-   chmod 600 /root/.ssh/authorized_keys"
+docker exec jenkins cat /var/jenkins_home/.ssh/id_ed25519.pub | docker exec -i agent bash -c "mkdir -p /root/.ssh && cat > /root/.ssh/authorized_keys && chmod 700 /root/.ssh && chmod 600 /root/.ssh/authorized_keys"
 ```
 
 ### 7. Test SSH Connectivity
 
 ```bash
-docker exec jenkins ssh \
-  -i /var/jenkins_home/.ssh/id_ed25519 \
-  root@agent "java -version"
+docker exec jenkins ssh -i /var/jenkins_home/.ssh/id_ed25519 root@agent "java -version"
 ```
 
 A successful connection should display the Java version installed on the agent.
