@@ -131,6 +131,27 @@ SSH uses a public and private key pair.
 4. Configure the agent to launch through SSH.
 5. Verify that the node becomes **Online**.
 
+
+
+## 🔐 OpenSSH Server (sshd) Configuration
+
+Installed and configured OpenSSH Server inside the Jenkins agent container.
+
+Learned to start and verify the sshd daemon.
+
+Explored sshd_config and SSH public-key authentication.
+
+Enabled SSH connectivity between the Jenkins controller and agent.
+
+### Start SSH server
+docker exec agent bash -c "mkdir -p /run/sshd && /usr/sbin/sshd"
+
+### Verify SSH daemon
+docker exec agent bash -c "ps aux | grep '[s]shd'"
+
+
+
+
 ## 🖥️ Jenkins Agent Configuration
 
 In Jenkins, navigate to **Manage Jenkins → Nodes** and configure a permanent agent.
