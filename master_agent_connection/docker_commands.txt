@@ -1,0 +1,994 @@
+cd sisa
+sudo sisa
+su sisa
+sudo passwd sisa
+sudo passwd sisa
+ls
+cd ..
+ls
+su sisa
+pwd
+cd/ ubuntu
+cd ubuntu/
+cd neha/
+ls
+pws
+pwd
+userdel sisa
+sudo userdel sisa
+ls
+cd
+pwd
+cd /home
+ls
+sudo userdel sisa
+userdel sisa
+userdel sneha
+suod userdel sneha
+sdpo userdel sneha
+clear
+pwd
+ls
+sudo userdel sneha
+ls
+su sneha
+cd sneha
+sudo sneha
+sudo cd sneha
+id sneha
+id
+sudo rm -rf /home/sneha
+ls
+sudo rm -rf /home/sisa
+ls
+sudo useradd sia
+ls
+cd /
+ls
+cd /home
+ls
+cd neha
+ls
+id sia
+sudo userdel sia
+ls
+sia id
+id
+ls
+useradd -m ina
+sudo useradd -m jia
+sudo useradsudo ls /etc/sudoers.d
+sudo ls /etc/sudoers.d
+cat README
+cd /
+pwd
+ls
+cd /etc/passwd
+cd /etc
+cat
+at /etc/passwd
+cat /etc/passwd
+cd
+ls
+cd /etc/
+pwd
+cd
+pwd
+id sudo
+sudo visudo
+useradd sneha
+sudo useradd sneha
+ls
+id sneha
+sudo userdel sneha
+sudo useradd jia sia pia
+sudo useradd jia
+id jia
+sudo userdel jia
+id jia
+sudo useradd -m jia
+id jia
+pwd
+ls
+cd ..
+ls
+su jia
+sudo useradd Pia
+ls
+sudo userdel -r Pia
+sudo userdel  Pia
+sudo userdel Pia
+id pia
+id Pia
+sudo userdel pia
+sudo userclear pia
+clear
+sudo useradd -m pia
+ls
+sudo groupadd devops
+sudo group add tester
+sudo groupadd tester
+sudo useradd -m tiya
+sudo useradd -m lia
+ls
+id
+id pia
+cat /etc/gpasswd
+cd ..
+cat /etc/gpasswd
+pwd
+ls
+cd etc
+ls
+cat gpasswd
+cat grpasswd
+cat group
+CD
+cd
+history
+cat /etc/shadow
+sudo cat /etc/shadow
+ls
+pwd
+cd /etc
+ls
+cat passwd
+cat group
+cat gpasswd
+cat group-
+cat group
+•passwd  - sudo passwd snehaum
+umask
+cat /.bashrc
+cat .bashrc
+umask
+cat bashrc
+ls
+chownclear
+clear
+history
+ls
+ls -a
+ping
+ping www.google.com
+clear
+ping
+ping google.com
+ping google
+ping trainwithshubham.com
+traceroute
+sudo apt install traceroute
+clear
+ping benzara.com
+netstat
+sudo apt install net-tools
+traceroute
+clera
+clear
+a;hg
+a;hgkj
+a;gn
+clear
+netstat
+clear
+netstat
+wswwsl
+clear
+netstat
+ifconfig
+i 662
+id 662
+ss
+clear
+ss
+ifconfig
+clear
+ifconfig
+ip
+ip addr
+ip link
+traceroute
+traceroute google.com
+mtr benzara.com
+nslookup benzara.com
+ip
+iwconfig
+ss
+net c
+clear
+netstat
+clear
+dig benzara.com
+whois benzara.com
+sudo apt install whois
+whois benzara.com
+whois google.com
+clear
+dig benzara.com
+clear
+curl
+man curl
+curl google.com
+curl trainwithshubham.com
+curl https://www.trainwithshubham.com
+clear
+watch mtr google.com
+watch mtr trainwithshubham.com
+jobs
+job
+clear
+ls
+whoami
+pwd
+ls
+ls-l
+ls -l
+cd devops
+ls
+touch sneha.txt
+touch github-workflows
+ls
+git int
+git init
+git -version
+git --version
+ls -l
+ls -a
+git add
+git add .
+git commit -m "this is testing"
+git origin
+git set -origin
+mkdir devops-version
+rmdir devops-version
+ls
+cd .
+cd
+mkdir devops-version
+ls
+cd devops-version
+touch sneha.txt sneha2.txt
+git init
+git remote add origin https://github.com/snehaix/devops-version.git
+git status
+git add .
+git commit -m "adding new"
+git push -u origin main
+git push origin master
+git push -u origin master
+git remote -v
+
+git remote -v
+git add .
+git status
+git add
+git add .
+git commit -m "testing"
+git config --global user.email "sneha1907singh@gmail.com"
+git config --global user.name "Sneha Singh"
+git commit -m "testing"
+git remote -v
+git status
+git push origin master
+ping github.com
+git status
+git push -u origin main
+git push -u origin master
+touch sneha3.txt
+git status
+git add .
+git commit -m "new "
+git push origin main
+git push -u origin master
+git checkout -B dev
+touch new.txt
+git add new.txt
+git commit -m "added new file"
+git push -u origin dev
+vim new1.txt
+cat new1.txt
+git add new1.txt
+git commit -m "added new1.txt file to dev "
+git push -u origin master
+git push -u origin dev
+git pull -u origin master
+git pull origin master
+ls
+cd devops-version/
+ls
+git status
+git branch
+switch master
+git switch master
+ls
+rebase.txt
+touch rebase.txt
+ls
+git add .
+git commit -m "added rebase"
+git swtich dev
+git switch dev
+touch rebase-dev.txt
+git add .
+git commit -m "added rebase dev "
+git merge
+git switch master
+git merge dev
+git log
+cd ..
+cd..
+grep .bashrc
+ls
+cd
+pwd
+cd /home
+ls
+ls -l
+cd  ~
+ls -l
+cd ~
+pwd
+cd /home
+cd ~
+cd /sysbin
+cd /bin
+ls
+cd /sysbinclear
+clear
+cd ..
+ls
+cd ..
+cd ~
+ls
+cd /
+ls
+cd /
+ls
+cd ..
+cd ~
+ls
+pwd
+docker -v
+docker ps
+docker run
+docker --version
+which docker
+sudo apt update
+bash --version
+clear
+docker ps
+systemctl status docker
+docker --version
+clear
+docker --version
+pwd
+docker ps
+ls -l /usr/bin/docker
+which docker
+docker --version
+udo apt remove docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt remove docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo remove docker
+sudo remove docker.io
+sudo apt update
+docker --version
+sudo apt purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+sudo apt-get update
+sudo apt-get install docker.io
+docker --version
+docker ps
+systemctl status docker
+whoami
+cat /etc/group
+sudo usermod -aG docker tiya
+cat /etc/group
+sudo usermod -rG docker tiyasudo gpasswd -d neha docker
+sudo gpasswd -d neha docker
+sudo gpasswd -d tiya docker
+cat /etc/group
+sudo usermod -aG docker neha
+cat /etc/group
+docker ps
+docker run -itd ubuntu
+docker ps
+docker exec -it a544271a0425
+docker exec -it a544271a0425 bash
+systemctl status nginx
+docker run -d -p 80:80 nginx
+docker ps
+ls
+docker stop ubuntu
+docker stop a544271a0425
+docker ps
+docker ps -a
+docker start a544271a0425
+docker rm a544271a0425
+docker stop a544271a0425
+docker rm a544271a0425
+docker ps
+docekr stop 20f1c2634e80 && docker rm 20f1c2634e80
+docker stop 20f1c2634e80 && docker rm 20f1c2634e80
+ps
+docker ps
+docker run
+ls
+chid
+docker pull jenkins/jenkins:2.580.1
+clear
+docker ps
+docker images
+docker image inspect jenkins/jenkins:2.580.1
+clear
+docker --version
+cd etc
+cd /etc
+ls
+cd group
+cat group
+docker network create jenkins
+docker inpsect
+docker inspect
+docker inspectclear
+clear
+docker volume create jenkins_home
+docker logs
+docker logs jenkins
+docker network ls
+docker network inspect bridge
+clear
+docker network inspect jenkins
+clear
+docker ps
+docker scout cves jenkins/jenkins:2.580.1
+clear
+docker inspect jenkns
+docker inspect jenkins
+docker rmi jenkins/jenkins:2.580.1
+cd
+clear
+ls
+cd..
+cd ..
+ls
+cd nehaa
+ls
+cd ..
+ls
+cd /neha
+cd neha
+pwd
+docker -version
+docker --version
+docker ps
+docker inspect jenkins
+docker image ls
+docker stop ubuntu:latest
+docker rmi ubuntu:latest
+docker image ls
+docker rmi jenkins
+docker inspect uubuntu:latest
+docker inspect ubuntu:latest
+docker image ls
+clear
+docker inspect jenkins
+docker inspect ubuntu
+docker ps -a
+docker image prune -a
+docker inpect jenkins
+docker inspect jenkins
+clear
+docker inspect jenkins
+docker network ls
+docker pull jenkins/jenkins:lts-jdk21
+clera
+clear
+docker image jenkins
+docker images ls
+docker images
+docker volumes
+docker volume jenkins_home
+docker volume ls
+docker run -d   --name jenkins   --restart unless-stopped   -p 8080:8080   -p 50000:50000   -v jenkins_home:/var/jenkins_home \
+clear
+docker volume ls
+docker network ps
+docker network ls
+pwd
+docker inspect jenkins
+docker colinspect jenkins
+clear
+docker volune inspect jenkins
+docker volume inspect jenkins
+docker volume inspect ls
+docker inspect ls
+docker volumes
+docker volume
+docker volume ls
+docker volume inspect jenkins_home
+docker run -d --name jenkins --network jenkinsclera
+clear
+clera
+clear
+docker images
+docker run jenkins/jenkins:lts-jdk21
+docker ps
+docker ls
+docker os
+docker ps
+docker ps -a
+docker logs  enkins/jenkins:lts-jdk21
+clera
+cllear
+clear
+docker logs jenkins
+docker ps -a
+docker logs 96b5d03100ce
+clera
+clear
+docker run -d jenkins
+docker sp
+docker images
+docker run -d webroot: /var/jenkins_home/war
+2026-10-02 16:14:20.081+0000 [id=1]     INFO    winstone.Logger#logInternal: Beginning extraction from war file
+2026-10-02 16:14:20.968+0000 [id=1]     WARNING o.e.j.ee9.nested.ContextHandler#setContextPath: Empty contextPath
+2026-10-02 16:14:21.094+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: jetty-12.1.13; built: 2026-09-04T06:53:08.311Z; git: e99386749a0a4888cd9b555ffc96a476fd48d94e; jvm 21.0.12.1+1-LTS
+2026-10-02 16:14:21.882+0000 [id=1]     INFO    o.e.j.e.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.ee9.jsp.JettyJspServlet
+2026-10-02 16:14:21.977+0000 [id=1]     INFO    o.e.j.s.DefaultSessionIdManager#doStart: Session workerName=node0
+2026-10-02 16:14:22.768+0000 [id=1]     INFO    hudson.WebAppMain#contextInitialized: Jenkins home directory: /var/jenkins_home found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2026-10-02 16:14:23.012+0000 [id=1]     INFO    o.e.j.e.w.StandardDescriptorProcessor#visitServlet: Started Jenkins
+2026-10-02 16:14:23.027+0000 [id=1]     INFO    o.e.j.server.AbstractConnector#doStart: Started connector
+2026-10-02 16:14:23.028+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: Started server
+2026-10-02 16:14:23.032+0000 [id=34]    INFO    winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2026-10-02 16:14:23.234+0000 [id=33]    INFO    jenkins.model.Jenkins#<init>: Starting version 2.580.1
+2026-10-02 16:14:23.394+0000 [id=43]    INFO    jenkins.InitReactorRunner$1#onAttained: Started initialization
+2026-10-02 16:14:23.425+0000 [id=41]    INFO    jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2026-10-02 16:14:25.056+0000 [id=42]    INFO    jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2026-10-02 16:14:25.065+0000 [id=46]    INFO    jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2026-10-02 16:14:25.066+0000 [id=46]    INFO    jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2026-10-02 16:14:25.369+0000 [id=43]    INFO    jenkins.InitReactorRunner$1#onAttained: System config loaded
+2026-10-02 16:14:25.370+0000 [id=40]    INFO    jenkins.InitReactorRunner$1#onAttained: System config adapted
+2026-10-02 16:14:25.372+0000 [id=44]    INFO    jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2026-10-02 16:14:25.376+0000 [id=42]    INFO    jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2026-10-02 16:14:25.423+0000 [id=61]    INFO    hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2026-10-02 16:14:26.098+0000 [id=41]    INFO    jenkins.install.SetupWizard#init:
+[LF]>
+[LF]> *************************************************************
+[LF]>
+[LF]> Jenkins initial setup is required. An admin user has been created and a password generated.
+[LF]> Please use the following password to proceed to installation:
+[LF]>
+[LF]> 936851a922fd45e8b33b8f4f19e7adb2
+[LF]>
+[LF]> This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
+[LF]>
+[LF]> *************************************************************
+2026-10-02 16:14:36.498+0000 [id=43]    INFO    jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2026-10-02 16:14:36.531+0000 [id=33]    INFO    hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+2026-10-02 16:14:37.823+0000 [id=61]    INFO    h.m.DownloadService#load: Obtained updated data
+2026-10-02 16:14:37.824+0000 [id=61]    INFO    hudson.util.Retrier#start: Performed action successfully
+2026-10-02 16:15:27.327+0000 [id=35]    INFO    winstone.Logger#logInternal: JVM is terminating. Shutting down Jetty
+2026-10-02 16:15:27.329+0000 [id=35]    INFO    org.eclipse.jetty.server.Server#doStop: Stopped server
+2026-10-02 16:15:27.332+0000 [id=35]    INFO    o.e.j.server.AbstractConnector#doStop: Stopped connector
+2026-10-02 16:15:27.338+0000 [id=35]    INFO    hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+2026-10-02 16:15:27.341+0000 [id=35]    INFO    jenkins.model.Jenkins$13#onAttained: Started termination
+2026-10-02 16:15:27.359+0000 [id=35]    INFO    jenkins.model.Jenkins$13#onAttained: Completed termination
+2026-10-02 16:15:27.360+0000 [id=35]    INFO    jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+2026-10-02 16:15:27.383+0000 [id=35]    INFO    jenkins.model.Jenkins$13#onAttained: Stopping plugin manager
+2026-10-02 16:15:27.384+0000 [id=35]    INFO    jenkins.model.Jenkins$13#onAttained: Persisting build queue
+2026-10-02 16:15:27.395+0000 [id=35]    INFO    jenkins.model.Jenkins$13#onAttained: Waiting for node disconnection
+2026-10-02 16:15:27.396+0000 [id=35]    INFO    jenkins.model.Jenkins#_cleanUpShutdown: Jenkins stopped
+neha@DESKTOP-5PIVVNN:~$clear
+clera
+clear
+docker ps -a
+docker webroot: /var/jenkins_home/war
+2026-10-02 16:14:20.081+0000 [id=1]     INFO    winstone.Logger#logInternal: Beginning extraction from war file
+2026-10-02 16:14:20.968+0000 [id=1]     WARNING o.e.j.ee9.nested.ContextHandler#setContextPath: Empty contextPath
+2026-10-02 16:14:21.094+0000 [id=1]     INFO    org.eclipse.jetty.server.Server#doStart: jetty-12.1.13; built: 2026-09-04T06:53:08.311Z; git: e99386749a0a4888cd9b555ffc96a476fd48d94e; jvm 21.0.12.1+1-LTS
+2026-10-02 16:14:21.882+0000 [id=1]     INFO    o.e.j.e.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.ee9.jsp.JettyJspServlet
+2026-10-02 16:14:21.977+0000 [id=1]    INFO    jenkins.model.Jenkins#contextInitialized: Jenkins home directory found
+2026-10-02 16:14:22.768+0000 [id=1]    INFO    hudson.WebAppMain#contextInitialized: Jenkins home directory: /var/jenkins_home
+2026-10-02 16:14:23.012+0000 [id=1]    INFO    jenkins.model.Jenkins#init: Started
+2026-10-02 16:14:23.027+0000 [id=1]    INFO    org.eclipse.jetty.server.AbstractConnector#doStart: Started connector
+2026-10-02 16:14:23.028+0000 [id=1]    INFO    org.eclipse.jetty.server.Server#doStart: Started
+2026-10-02 16:14:23.032+0000 [id=34]    INFO    winstone.Logger#logInternal: Running
+2026-10-02 16:14:23.234+0000 [id=33]    INFO    jenkins.model.Jenkins#start: Starting version 2.580.1
+2026-10-02 16:14:23.394+0000 [id=43]    INFO    jenkins.InitReactorRunner#start: Started initialization
+2026-10-02 16:14:23.425+0000 [id=41]    INFO    jenkins.InitReactorRunner#plugins: Listed all plugins
+2026-10-02 16:14:25.056+0000 [id=42]    INFO    jenkins.InitReactorRunner#plugins: Prepared all plugins
+2026-10-02 16:14:25.065+0000 [id=46]    INFO    jenkins.InitReactorRunner#plugins: Started all plugins
+2026-10-02 16:14:25.066+0000 [id=46]    INFO    jenkins.InitReactorRunner#extensions: Augmented extensions
+2026-10-02 16:14:25.369+0000 [id=43]    INFO    jenkins.InitReactorRunner#config: System config loaded
+2026-10-02 16:14:25.370+0000 [id=40]    INFO    jenkins.InitReactorRunner#config: System config adapted
+2026-10-02 16:14:25.372+0000 [id=44]    INFO    jenkins.InitReactorRunner#jobs: Loaded all jobs
+2026-10-02 16:14:25.376+0000 [id=42]    INFO    jenkins.InitReactorRunner#jobs: Updated jobs
+2026-10-02 16:14:25.423+0000 [id=61]    INFO    hudson.util.Retrier#start: Checking updates
+2026-10-02 16:14:26.098+0000 [id=41]    INFO    jenkins.install.SetupWizard#init:
+[LF]>
+[LF]> *************************************************************
+[LF]>
+[LF]> Jenkins initial setup is required. An admin user has been created and a password generated.
+[LF]> Please use the following password to proceed to installation:
+[LF]>
+[LF]> 936851a922fd45e8b33b8f4f19e7adb2
+[LF]>
+[LF]> This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
+[LF]>
+[LF]> *************************************************************
+2026-10-02 16:14:36.498+0000 [id=43]    INFO    jenkins.InitReactorRunner#complete: Completed initialization
+2026-10-02 16:14:36.531+0000 [id=33]    INFO    hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+2026-10-02 16:14:37.823+0000 [id=61]    INFO    hudson.util.DownloadService: Obtained updated data
+2026-10-02 16:14:37.824+0000 [id=61]    INFO    hudson.util.Retrier: Performed action successfully
+2026-10-02 16:15:27.327+0000 [id=35]    INFO    winstone.Logger#logInternal: JVM is terminating. Shutting down Jetty
+2026-10-02 16:15:27.329+0000 [id=35]    INFO    org.eclipse.jetty.server.Server#doStop: Stopped server
+ls
+whoami
+pwe
+pwd
+ls
+docker ps
+docker ps -a
+docker run -d docker run -d -p 8080:8080 -p 50000:50000 --name jenkins jenkins/jenkins:lts-jdk21
+docker run -d -p 8080:8080 -v jenkins_home:/var/jenkino --name jenkins
+clear
+docker images
+docker run -d -p 8080:8080 --name jenkins a660310e39ad
+docker ps
+docker ps -a
+docker image
+docker image ls
+docker rmi 7dcdfc4a2024
+clear
+docker stop 7dcdfc4a2024
+docker image
+docker image ls
+docker rmi 7dcdfc4a2024
+docker rm a88a46f0ad41
+docker image ls
+docker rm 7dcdfc4a2024
+docker rmi 7dcdfc4a2024
+clear
+docker image ls
+docker run -d -p 8080:8080 --name jenkins a660310e39ad
+docker rmi 57a74f303d3ec5598cc5ddd6ec8ab0bfe74f2fc9d101ea8555e37fa371eb1e9b
+docker rm 57a74f303d3ec5598cc5ddd6ec8ab0bfe74f2fc9d101ea8555e37fa371eb1e9b
+docker stop 57a74f303d3ec5598cc5ddd6ec8ab0bfe74f2fc9d101ea8555e37fa371eb1e9b
+docker rm 57a74f303d3ec5598cc5ddd6ec8ab0bfe74f2fc9d101ea8555e37fa371eb1e9b
+docker run -d -p 8080:8080 --name jenkins a660310e39ad
+docker ps
+docker inspect jenkins
+clear
+docker logs jenkins
+docker logs
+docker status jenkins
+clear
+docker ps
+docker volume
+docker volume inspect
+docker volume inspect jenkins
+docker volume inspect  a660310e39ad
+docker volume inspect a660310e39ad
+docker volume ls
+docker dockerclera inspect
+clear
+docker ls
+docker ps -a
+docker inspect jenkins
+docker inspect volume jenkins
+clear
+docker ps -a
+docker volume ls
+docker volume inspect jenkins_home
+docker ps
+docker stop a660310e39ad && docker rm a660310e39ad
+docker stop a660310e39ad && docker rmi a660310e39ad
+docker stop a660310e39ad
+docker stop 6733595cb96e
+docker rm 6733595cb96e
+docker ps
+docker run -d -p 8080:8080 -v jenkins_home:/var/jenkins_home --name clkneoahwfenkins
+clear
+docker run -d -p 8080:8080 -v jenkins_home:/var/jenkins_home --name my_jenkins
+docker p
+docker ps
+docker image
+docker image ls
+clear
+docker run -d -p 8080:8080 -v jenkins_home:/var/jenkins_home --name my_jenkins "CreatedAt": "2026-10-02T20:51:49+05:30",
+docker
+clear
+docker ps
+docker image ls
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --network jenkins --name my_jenkins jenkins/jenkins:lts-jdk21
+docker ps
+docker inspect
+docker inspect my_jenkins
+clear
+docker ps
+docker run -d -p 8080:8080 -p 50000:50000 -v ~/jenkins_home:/var/jenkins_home --network jenkins --name my_jenkins jenkins/jenkins:lts-jdk21
+docker run -d -p 8080:8080 -p 50000:50000 -v ~/jenkins_home:/var/jenkins_home --network jenkins --name myjenkins jenkins/jenkins:lts-jdk21
+docker ps
+docker stop d21fe063702b
+docker rm d21fe063702b
+docker ps
+docker run -d -p 8080:8080 -p 50000:50000 -v ~/jenkins_home:/var/jenkins_home --network jenkins --name myjenkins jenkins/jenkins:lts-jdk21
+docker rm 9c4596104738c2e15e9f7cad120b537b50c228db3ac8b6571ab6ee26f3d55951
+docker ps -a
+docker rm 96b5d03100ce
+docker ps -a
+docker run -d -p 8080:8080 -p 50000:50000 -v ~/jenkins_home:/var/jenkins_home --network jenkins --name myjenkins jenkins/jenkins:lts-jdk21
+docker ps
+docker ps -a
+docker inspect myjenkins
+ls -ld ~/jenkins_home
+docker run -d -p 8080:8080 -p 50000:50000 -v ~/jenkins_home:/var/jenkins_home --network jenkins --name myjenkins jenkins/jenkins:lts-jdk21
+docker rm 79c439bd4b1a4db83ba9c2ecf6493bb6dee4d569b555d7ecb51d98c80685ad5f"
+docker rm 79c439bd4b1a4db83ba9c2ecf6493bb6dee4d569b555d7ecb51d98c80685ad5f
+docker ps a
+docker ps -a
+docker volume ls
+docker volume inspect jenkins_home
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --network jenkins --name myjenkins jenkins/jenkins:lts-jdk21
+docker ps
+docker volume inspect jenkins_home
+docker inspect myjenkins
+docker stop 3a6c8be64da7
+docker rm 3a6c8be64da7
+docker os
+docker ps
+docker ps -a
+docker run -d -p 8080:8080 --name my_jenkin jenkins/jenkins:lts-jdk21
+docker ps
+docker inspect jenkins
+docker inspect my_jenkin
+clera
+clear
+docker stop my_jenkin
+docker rm my_jenkin
+docker ps
+docker ps -a
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --name jenkins
+docker image
+docker image ls
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:lts-jdk21
+ps
+docker ps
+docker logs jenkins
+docker exec -it myjenkins java -version
+docker exec -it jenkins java -version
+docker ps
+docker ps -a
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:lts-jdk21
+docker ps -a
+docker start 44f045797210
+docker os
+docker ps 0a
+docker ps -a
+docker stop 44f045797210 && docker rm 44f045797210
+docker pull jenkins
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:2.580.1-lts
+docker ps
+docker inspect jenkins
+clear
+docker logs jenkins
+docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPas
+docker exec myjenkins cat /var/jenkins_home/secrets/initialAdminPassword
+docker ps
+docker ps -a
+docker start 383dffab5a98
+docker ps
+docker status
+docker p
+docker ps
+docker ps -a
+docker images
+docker rm jenkins/jenkins:lts-jdk21
+docker rmi jenkins/jenkins:lts-jdk21
+docker imaegs
+docker images
+docker rm 383dffab5a98ce60a1cd4e35a1da04b30eb5ca001d81ed96ce794a0aaccd1c62
+docker run -d -p 8080:8080 -v jenkins_home/var_jenkins_home --name jenkins jenkins/jenkins:2.580.1-lts
+docker rm
+history
+docker ps
+docker stop cfd4a22f84d8 && docker rm cfd4a22f84d8
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --network jenkins --name my_jenkins jenkins/jenkins:2.580.1-lts
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home --network jenkins --name my_jenkins jenkins/jenkins:2.580.1-ltsdocker
+docker ps
+docker stop 01dcd3a94a9b && docker rm 01dcd3a94a9b
+docker create volume jenkins
+docker volume ls
+docker rm jenkins_home
+docker rm volume jenkins_home
+docker volume rm jenkins_home
+docker volume ls
+docker volume create jenkins
+docker volume ls
+docker logs jenkins
+docker status jenkins
+docker volume jenkins
+docker volume --help
+docker volume inspect jenkins
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins:/var/jenkins --network jenkins --name my_jenkins jenkins/jenkins:2.580.1-lts
+docker ps
+docker inspect jenkins
+docker log
+docker logs jenkins
+docker logs jenkin
+docker logs 7e51c9883686
+cd  /var/jenkins_home/workspace/job
+cd /var/jenkins_home/workspace/job
+ls
+vcd var
+cd /var
+ls
+ls -l
+cd lib
+ls
+ls -l
+grep jenkins
+cd .
+cd ..
+ls
+ls -l
+cd ..
+ls
+cd home
+ls
+cd neh
+cd neha
+ls
+cd jenkins
+cd Jenkins
+cat Jenkins
+ls -l
+var
+cd var
+cd /var
+ls
+cd local
+ls  -l
+ls -l
+cd ..
+cd /home/neha
+ls
+docker network
+docker network ls
+docker ps
+docker exec -it 7e51c9883686 bash
+ls
+pwd
+docker ps
+cd jenkins_home
+ls
+ls -l
+cd ..
+cd jenkins
+ls
+cd Jenkins
+docker run -d  --name jenkins-agent --network jenkins jenkins/inbound-agent:latest
+docker ps
+docker ps -a
+docker rm 44b20928ac58
+docker ps-a
+docker ps -a
+docker run -d --name jenkins_agent --network jenkins ubuntu:24.04 sleep infinity
+docker ps
+docker exec -it jenkins-agent bash
+docker exec -it jenkins_agent bash
+history
+docker exec -it jenkins_agent bash
+docker update --restart unless-stopped my_jenkins
+docker update --restart unless-stopped jenkins-agent
+docker ps
+docker stop 28eac028c66d && docker rm 28eac028c66d
+docker run -d --name ubuntu --network jenkins --restart unless-stopped ubuntu:24.04 sleep infinity
+ps
+docker ps
+docker exec -it jenkins-agent bash
+docker exec -it agent bash
+docker ps
+docker stop agent && docker rm agent
+clear
+histoyr
+history
+docker run -d --name agent --network jenkins --restart unless-stopped ubuntu:24.04 sleep infinity
+docker exec -it agent bash
+docker inspect agent
+ssh-keygen
+cd /ssh
+ls
+cd ~
+ls
+cd /
+ls
+cd ..
+ls
+cd home
+cd neha
+ls
+docker ps
+docker exec -it my_jenkins bash
+docker exec -u 0 -it agent bash
+docker ps
+docker exec -u 0 -it my_jenkins bash
+docker exec -u 0 -it agent bash
+cd ssh
+docker exec -u 0 -it my_jenkins bash
+docker ps
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACC0Dpu1eYqK/bdlf68T3FUefamneqxzjAabShaB13biBgAAAJhCmThKQpk4
+SgAAAAtzc2gtZWQyNTUxOQAAACC0Dpu1eYqK/bdlf68T3FUefamneqxzjAabShaB13biBg
+AAAEDH3JXIQDvOK8mxnN/+iLC32LelByODyOGBBjXN9CClHLQOm7V5ior9t2V/rxPcVR59
+qad6rHOMBptKFoHXduIGAAAAFGplbmtpbnNAN2U1MGM5ODgzNjg2AQ==
+docker ps
+docker exec -u 0 -it agent
+docker exec -u 0 -it agent bash
+ssh jenkins@172.18.0.3
+docker exec -it jenkins-agent bash
+docker exec -u 0 -it agent bash
+ssh jenkins@172.18.0.3
+ps
+docker
+docker ps
+history
+docker network create mynet
+docker network ls
+docker run -dit --name server --network mynet ubuntu:24.04 sleep infinity
+docker run -dit --name client --network mynet ubuntu:24.04 sleep infinity
+docker ps
+docker exec server bash -c "apt update && apt install -y openssh-server"
+docker exec client bash -c "apt update && apt install -y openssh-client"
+docker exec -it -u 0 client bash
+docker exec -it -u 0 client server
+docker exec -it -u 0 server bash
+docker ps
+docker stop agent
+docker stop my_jenkins
+docker exec -u 0 client bash
+docker exec -it -u 0 client bash
+docker exec -it -u 0 server bash
+docker exec -it client ssh root@server
+docker -it -u 0 client bash
+docker exec -it -u 0 client bash
+docker ps
+docker ps -a
+docker start my_jenkins
+docker start agentdocker start my_jenkins
+docker start agent
+docker ps
+docker stop 47f41b3d3862 d2babd98059f
+docke ros
+docker ps
+ocker inspect -f '{{json .NetworkSettings.Networks}}' my_jenkins
+docker inspect -f '{{json .NetworkSettings.Networks}}' my_jenkins
+docker inspect -f '{{json .NetworkSettings.Networks}}' agent
+docker exec agent bash -c "which sshd"
+docker exec agent bash -c "ps aux | grep '[s]shd'"
+docker exec agent bash -c "which sshd"
+docker exec agent bash -c "mkdir -p /run/sshd && /usr/sbin/sshd"
+docker exec agent bash -c "ps aux | grep '[s]shd'"
+docker exec agent bash -c "whoami; id jenkins
+docker exec agent bash -c "whoami; id jenkins"
+docker exec agent bash -c "ls -la /home/jenkins/.ssh"
+docker exec agent bash -c "cat authorized_keys"
+docker exec -it -u 0 agent
+docker exec -it -u 0 agent absh
+docker exec -it -u 0 agent bash
+docker exec -it -u 0 my_jenkins bash
+docker ps
+docker stop agent my_jenkins
+docker start agent my_jenkins
+docker volumes
+docker volume
+docker volume ls
+docker volume inspect jenkins
+docker exec jenkins cat /var/jenkins_home/.ssh/id_ed25519.pub
+docker exec my_jenkins cat /var/jenkins_home/.ssh/id_ed25519.pub
+docker exec -it agent bash
+docker ps
+docker exec -it -u 0 my_jenkins bash
+hisotry
+history
+neha@DESKTOP-5PIVVNN:~$ docker exec -it agent bash
