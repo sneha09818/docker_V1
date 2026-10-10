@@ -31,7 +31,7 @@ The goal of this project is to configure a Jenkins controller and a separate Jen
 ## 🏗️ Architecture
 
 ```text
-              Host Machine (Windows / WSL2)
+                    Host Machine
                           |
                     Docker Network
                      jenkins-net
