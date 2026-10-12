@@ -1,0 +1,100 @@
+ 1628  docker ps
+ 1629  docker ps -
+ 1630  docker ps -a
+ 1631  docker network ls
+ 1632  docker network create jenkins-net
+ 1633  docker run -d   --name jenkins   --network jenkins-net   -p 8080:8080   -p 50000:50000   -v jenkins_home:/var/jenkins_home   jenkins/jenkins:lts
+ 1634  docker ps -a
+ 1635  docker rm jenkins agent
+ 1636  docker run -d   --name jenkins   --network jenkins-net   -p 8080:8080   -p 50000:50000   -v jenkins_home:/var/jenkins_home   jenkins/jenkins:lts
+ 1637  docker run -d   --name jenkins   --network jenkins-net   -p 8080:8080   -p 50000:50000   -v jenkins_home:/var/jenkins_home   jenkins/jenkins:lts
+ 1638  docker run -d   --name agent   --network jenkins-net   ubuntu:24.04   sleep infinity
+ 1639  clear
+ 1640  docker ps
+ 1641  docker exec -it agent bash
+ 1642  docker exec -it jenkins bash
+ 1643  docker exec jenkins cat /var/jenkins_home/.ssh/id_ed25519.pub | docker exec -i agent bash -c "mkdir -p /root/.ssh && cat >> /root/.ssh/authorized_keys"
+ 1644  docker exec agent_jenkins chmod 700 /root/.ssh
+ 1645  docker exec jenkins chmod 700 /root/.ssh
+ 1646  docker exec jenkins -u 0 chmod 700 /root/.ssh
+ 1647  docker exec -it -u 0 agent bash
+ 1648  docker exec -u root jenkins chown jenkins:jenkins /var/jenkins_home/.ssh
+ 1649  docker exec -u root jenkins chown jenkins:jenkins /var/jenkins_home/.ssh/id_ed25519
+ 1650  docker exec -u root jenkins chmod 700 /var/jenkins_home/.ssh
+ 1651  docker exec -u root jenkins chmod 600 /var/jenkins_home/.ssh/id_ed25519
+ 1652  docker exec jenkins bash -c 'touch /var/jenkins_home/.ssh/known_hosts'
+ 1653  docker exec jenkins bash -c 'chmod 600 /var/jenkins_home/.ssh/known_hosts'
+ 1654  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' agent
+ 1655  docker exec jenkins ssh   -i /var/jenkins_home/.ssh/id_ed25519   -o StrictHostKeyChecking=no   root@172.18.0.3 "java -version"
+ 1656  docker exec jenkins ssh   -i /var/jenkins_home/.ssh/id_ed25519   -o StrictHostKeyChecking=no   root@172.18.0.3 "java -version"
+ 1657  docker exec jenkins ssh -i /var/jenkins_home/.ssh/id_ed25519 -o StrictHostKeyChecking=no root@172.18.0.3 "java -version"
+ 1658  docker exec agent bash -c "mkdir -p /run/sshd && /usr/sbin/sshd"
+ 1659  docker exec agent bash -c "ps aux | grep '[s]shd'"
+ 1660  clear
+ 1661  cd ..
+ 1662  ls
+ 1663  docker -version
+ 1664  docker -v-ersion
+ 1665  docker --Version
+ 1666  cd ..
+ 1667  cd root
+ 1668  cd /root
+ 1669  cd ~
+ 1670  ls
+ 1671  docker ps
+ 1672  docker ps -a
+ 1673  docker ps
+ 1674  ;s
+ 1675  ls
+ 1676  clera
+ 1677  docker ls
+ 1678  docker ps -a
+ 1679  Clera
+ 1680  clear
+ 1681  history
+ 1682  docker network ;s
+ 1683  docker network ls
+ 1684  docker network rm mynet jenkins-net
+ 1685  docker volume ls
+ 1686  docker volume rm jenkins_home
+ 1687  docker rm 29dda09a34fa4bdbe9f95da4fb4f4c5dc265070310d7c8231b76044e2edebfec
+ 1688  docker volume rm jenkins_home
+ 1689  docker clera
+ 1690  docker clear
+ 1691  clear
+ 1692  docker ps
+ 1693  docker ps -a
+ 1694  docker rm agent
+ 1695  docker clear
+ 1696  clear
+ 1697  docker ps -a
+ 1698  docker network create jenkins
+ 1699  docker network connect jenkins master_jenkins
+ 1700  docker network connect jenkins agent
+ 1701  clear
+ 1702  docker network ls
+ 1703  docker run -d --name master_jenkins --network jenkins --restart unless-stopped -p 8080:8080 -p 50000:50000 -v day1:/var/jenkins_home jenkins/jenkins:lts-jdk17
+ 1704  docker ps
+ 1705  docker run -d --name ubuntu_agent --network jenkins --restart unless-stopped ubuntu:24.04 sleep infinity
+ 1706  docker ps
+ 1707  docker exec -u root -it ubuntu_agent bash
+ 1708  history
+ 1709  docker exec -u root -it ubuntu_agent bash
+ 1710  docker exec -u root -it master_jenkins bash
+ 1711  docker exec -u root ubuntu_agent bash -c 'echo "PASTE_PUBLIC_KEY_HERE" >> /root/.ssh/authorized_keys && chmod 600 /root/.ssh/authorized_keys'
+ 1712  docker inspect -f '{{(index .NetworkSettings.Networks "jenkins").IPAddress}}' ubuntu_agent
+ 1713  docker exec -u root master_jenkins ssh -i /var/jenkins_home/.ssh/id_ed25519 -o StrictHostKeyChecking=no root@AGENT_IP "java -version"
+ 1714  docker exec -u root master_jenkins ssh -i /var/jenkins_home/.ssh/id_ed25519 -o StrictHostKeyChecking=no root@172.18.0.3 "java -version"
+ 1715  docker exec -u root master_jenkins cat /var/jenkins_home/.ssh/id_ed25519.pub
+ 1716  docker exec -u root ubuntu_agent bash -c 'mkdir -p /root/.ssh && chmod 700 /root/.ssh && echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKcPTw6+WQUy9pso1FkC/Yip06QD5pJCvE2+6+Jl5aER root@1744d0a43365" > /root/.ssh/authorized_keys && chmod 600 /root/.ssh/authorized_keys'
+ 1717  docker exec -u root ubuntu_agent bash -c "grep -E '^(PubkeyAuthentication|PermitRootLogin)' /etc/ssh/sshd_config"
+ 1718  docker exec -u root ubuntu_agent bash -c "echo 'PubkeyAuthentication yes' >> /etc/ssh/sshd_config && echo 'PermitRootLogin prohibit-password' >> /etc/ssh/sshd_config && service ssh restart"
+ 1719  docker exec -u root ubuntu_agent bash -c "grep -E '^(PubkeyAuthentication|PermitRootLogin)' /etc/ssh/sshd_config"
+ 1720  docker exec -u root master_jenkins ssh -v -i /var/jenkins_home/.ssh/id_ed25519 -o IdentitiesOnly=yes -o StrictHostKeyChecking=no root@172.18.0.3 "java -version"
+ 1721  docker exec -u root ubuntu_agent bash -c "ls -la /root/.ssh && cat /root/.ssh/authorized_keys"
+ 1722  docker exec -u root master_jenkins ssh -v -i /var/jenkins_home/.ssh/id_ed25519 -o IdentitiesOnly=yes -o StrictHostKeyChecking=no root@172.18.0.3 "java -version"
+ 1723  docker exec -u root ubuntu_agent bash -c "mkdir -p /home/jenkins/agent"
+ 1724  docker exec -u root master_jenkins cat /var/jenkins_home/.ssh/id_ed25519
+ 1725  docker logs master_jenkins
+ 1726  history 100
+ 1727  history 100 > history.txt
